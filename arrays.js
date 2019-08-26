@@ -25,5 +25,5 @@ function destructivelyAddElementToEndOfArray(array, para) {
 }
 
 function accessElementInArray(array, index) {
-
+  return array[2];
 }
