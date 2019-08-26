@@ -10,3 +10,13 @@ function destructivelyAddElementToBeginningOfArray(array, para) {
   array.push(para);
   return myArray;
 }
+
+function addElementToEndOfArray(array, para) {
+
+}
+
+function destructivelyAddElementToEndOfArray(array, para) {
+  var myArray = array;
+  array.push(para);
+  return array;
+}
