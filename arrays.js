@@ -7,7 +7,7 @@ function addElementToBeginningOfArray(array, para) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, para) {
-  array.push(para);
+  array.unshift(para);
   return array;
 }
 
